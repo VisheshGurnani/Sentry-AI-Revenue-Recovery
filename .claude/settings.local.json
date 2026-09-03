@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python main.py)",
+      "Bash(cd *)",
+      "Bash(curl *)",
+      "Bash(rm -f database.db)",
+      "Bash(taskkill /F /IM python.exe)",
+      "Bash(timeout 3)",
+      "Bash(tasklist)",
+      "Bash(findstr python *)",
+      "Bash(taskkill /F /PID 3636)",
+      "Bash(taskkill /F /PID 13204)",
+      "Bash(taskkill /F /PID 37760)",
+      "Bash(taskkill /F /PID 22612)",
+      "Bash(taskkill /F /PID 16972)",
+      "Bash(powershell -Command \"Get-Process python | Stop-Process -Force\")",
+      "Bash(npm run *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(f'Transactions count: {len\\(d\\)}'\\); print\\(f'Sample transaction: {d[0] if d else \\\\\"None\\\\\"}'\\)\")",
+      "Bash(Select-String -Pattern '\"transaction_id\"')",
+      "Bash(Select-Object -First 3)"
+    ]
+  }
+}

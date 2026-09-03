@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 16px;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+.metric {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #999;
+  padding: 6px;
+  text-align: left;
+  vertical-align: top;
+}
+
+code {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.idempotency-blocked {
+  background: #ffeb99;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Force native browser elements into dark mode */
+html {
+  color-scheme: dark;
+}
+
+/* Custom Webkit Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569; 
+}
