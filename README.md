@@ -1,4 +1,4 @@
-# Razorpay Autonomous Payment Recovery Service
+# Sentry Autonomous Payment Recovery Service
 
 An event-driven, production-ready payment recovery and telemetry platform designed to intercept, diagnose, and recover failed transactions at scale. Built with a FastAPI backend, a bounding state-machine policy engine, and a high-performance Vite/React dark-mode control center.
 
